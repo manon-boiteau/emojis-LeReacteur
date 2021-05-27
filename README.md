@@ -19,7 +19,7 @@ Emojis search made at [Le Reacteur](https://www.lereacteur.io/) Bootcamp.
 ---
 
 ✘ Create layout  
-✘ Build a search bar
+✘ Build a search bar  
 ✘ Filter emojis  
 ✘ Copy & paste emojis  
 ✘ Make responsive design
