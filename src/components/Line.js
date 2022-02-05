@@ -1,5 +1,5 @@
 const Line = ({ text, className, symbol, title }) => {
-  // Function to copy emojis
+  // Function to copy/paste emojis
   const textCopy = (event) => {
     event.preventDefault();
     navigator.clipboard.writeText(symbol);

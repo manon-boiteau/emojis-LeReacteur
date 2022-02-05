@@ -1,18 +1,12 @@
 import "./App.css";
-
-/* Import Components */
+import { useState } from "react";
 import Search from "./components/Search";
 import Line from "./components/Line";
 import Footer from "./components/Footer";
-
-/* Import .json */
 import emojis from "./emojis.json";
 
-/* Import useState() from React */
-import { useState } from "react";
-
 function App() {
-  const [result, setResult] = useState(emojis.slice(0, 20)); // only the 20 first of the full list (too long)
+  const [result, setResult] = useState(emojis.slice(0, 20)); // only the 20 first of the full list
 
   const keyUp = (event) => {
     let results = [];
